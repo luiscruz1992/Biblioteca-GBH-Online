@@ -1,7 +1,7 @@
 # Biblioteca-GBH-Online
 
 ## Configuración.
-1) Cargar la base de dato MYSQL "gbh.sql".
+1) Cargar la base de datos MYSQL **gbh.sql**.
 2) Editar el archivo **APP\Config\Database.php** con las credenciales de su MySQL.
 3) Ejecutar en terminar **php -S hostname:puerto** ejemplo *php -S localhost:4000* para arracan el proyecto.
 
