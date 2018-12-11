@@ -1,0 +1,169 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2018, 10:04:04 PM
+    Author     : escanor
+*/
+
+*{
+
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    background: #003d49 url(../img/pattern.png);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5) inset;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+    padding: 20px 0;
+}
+
+header span{
+    color: white;
+}
+
+.container{
+    text-align: center;
+    min-height: 81vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    padding: 2px;
+    text-align: center;
+    background: #003d49 url(../img/pattern.png);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5) inset;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+}
+
+footer p{
+    color: white;
+    font-size: 14px;
+}
+
+/*******************************************************************************
+* Home 
+*/
+#search {
+    width: 600px;
+    border-bottom: dashed 1px gainsboro;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+#search span {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+}
+
+#search .input-text{
+    width: 90%;
+    height: 30px;
+    border: solid 1px gainsboro;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#lst-books img{
+    width: 200px;
+}
+
+/*******************************************************************************
+* Book 
+*/
+
+#book-description{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+#book-img{
+    width: 200px;
+}
+
+#pdf-main-container {
+    margin: 20px auto;
+}
+
+#pdf-loader {
+    display: none;
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+    line-height: 100px;
+    height: 100px;
+}
+
+#pdf-contents {
+    display: none;
+}
+
+#pdf-meta {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+
+#pdf-current-page {
+    display: inline;
+}
+
+#pdf-total-pages {
+    display: inline;
+}
+
+#pdf-canvas {
+    border: 1px solid rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+
+#page-loader {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    display: none;
+    color: #999999;
+    font-size: 13px;
+}
+
+#pdf-next, #pdf-prev{
+    cursor: pointer;
+    width: 21%;
+}
+
+#page-count-container,  #pdf-prev, #pdf-next{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#page-count-container {
+  width: 50%;  
+}
+
+.back{
+    text-decoration: none;
+}
+
+.back:hover{
+    color: #003d49;
+    text-decoration: underline;
+}
+
+.back:hover > i{
+    color: #003d49;
+}
+
+#book-name{
+    border-bottom: dashed 1px gainsboro;;
+}
